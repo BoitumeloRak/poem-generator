@@ -3,11 +3,19 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+a {
+    color: #885df1;
+}
+
 .container {
     margin: 120px auto;
-    max-width: 600 px;
+    max-width: 600px;
 
 
+}
+
+header {
+    margin-bottom: 30px;
 }
 
 h1 {
@@ -16,11 +24,6 @@ h1 {
     font-size: 36px;
     line-height: 1.5;
     color: #272044;
-    margin: 0;
-}
-
-header {
-    margin: 30px;
 }
 
 form {
@@ -28,7 +31,7 @@ form {
     background-color: white;
     border-radius: 10px;
     display: flex;
-    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.0);
+    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
 
 .instructions {
@@ -41,26 +44,29 @@ form {
     color: #272044;
 }
 
-.button {
+.submit-button {
     margin-left: 10px;
     background: #885df1;
     color: white;
-    border: nonw;
+    border: none;
+    width: 150px;
     border-radius: 50px;
     padding: 14px 24px;
-    font-size: 16ox;
+    font-size: 16px;
 }
 
-poem {
-    font-size: 14px;
+.poem {
+    font-size: 16px;
     background-color: #fff;
     padding: 20px;
-    line-height: 1.5px;
-    /* font-weight: ; */
+    line-height: 2;
     border-left: 3px solid #885df1;
-    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.0);
-    border-radius: 10px;
+    box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
 
+}
+
+.poem strong {
+    color: #885df1;
 }
 
 footer {
@@ -70,6 +76,3 @@ footer {
 
 }
 
-a {
-    color: #885df1;
-}
